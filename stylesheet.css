@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Beth+Ellen|Crimson+Pro|Crimson+Text|Dosis|Grenze|Lacquer|Lora|Muli|PT+Serif&display=swap');
 .all-content {
 
     display: flex;
@@ -42,7 +42,6 @@
 }
 
 body {
-    background-color: whitesmoke;
 }
 
 #navbar-body {
@@ -81,7 +80,8 @@ body {
     align-content: space-between;
     position: inherit;
     z-index: 0;
-    
+    overflow: hidden;
+    margin-bottom: -10%;
 
     
 
@@ -93,7 +93,8 @@ body {
     color: white;
     text-decoration: none;
     font-family: 'Amatic SC';
-    
+    margin-top:-10%;
+    padding-bottom: -20%;
 }
 
 #keto-menu-logo {
@@ -112,18 +113,38 @@ body {
 #landerImage {
     transition: background-image 2s;
     background-size: cover;
+    background-repeat: no-repeat;
     width: 100%;
-    height: 100vh;
+    height: 200vh;
+    background-position: center;
     position: fixed;
+}
+@media ( min-width:650px ){
+    #landerImage {
+        transition: background-image 2s;
+        background-size: cover;
+        background-position-y: 80%;
+    background-repeat: no-repeat;
+        position: fixed;
+    }   
 }
 
 #cardArea {
 
     width: 100%;
-    height: 100vh;
-    margin-top: 10vh;
+    height: 80vh;
+    margin-top: 35%;
+
 }
 
 .col .s12 .m7 {
     margin-top: 20vh;
 }
+.Card-Header {
+font-family: 'Beth Ellen';
+}
+.Card-Description {
+font-family: 'Lora';
+}
+/* Headers --- Lacquer|Beth+Ellen|Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light */
+/* Descriptors --- Crimson+Pro|Crimson+Text|Dosis|Grenze|Lora|Muli|PT+Serif*/
