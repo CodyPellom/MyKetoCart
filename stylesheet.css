@@ -41,22 +41,21 @@
     }
 }
 
-body {
-}
 
 #navbar-body {
     width: 100%;
     z-index: 1;
     height: 50px;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     border: 2px black;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: space-between;
     top: 0;
+    position: fixed;
 
 }
 
@@ -66,9 +65,9 @@ body {
 }
 
 #HamburgerMenu {
-    background: rgb(185, 185, 185);
+    background: rgb(223, 223, 223);
     width: 100%;
-    height: 0px;
+    height: 50px;
     -webkit-transition: all 0.75s;
     /* Safari prior 6.1 */
     transition: all 0.75s;
@@ -80,21 +79,23 @@ body {
     align-content: space-between;
     position: inherit;
     z-index: 0;
-    overflow: hidden;
-    margin-bottom: -10%;
-
-    
-
+    overflow: auto;
+    margin-top: 50px;
 }
-
+#ketoCartHeart {
+    height: 9vh;
+    width: 9vh;
+}
 .hamburger-link {
     padding-right: 5vh;
     font-size: 5vh;
-    color: white;
+    color: black;
     text-decoration: none;
     font-family: 'Amatic SC';
-    margin-top:-10%;
-    padding-bottom: -20%;
+}
+.hamburger-link:hover {
+color:white;
+text-decoration: underline;
 }
 
 #keto-menu-logo {
@@ -118,6 +119,7 @@ body {
     height: 200vh;
     background-position: center;
     position: fixed;
+    
 }
 @media ( min-width:650px ){
     #landerImage {
@@ -129,22 +131,47 @@ body {
     }   
 }
 
-#cardArea {
+.cardArea {
 
     width: 100%;
-    height: 80vh;
-    margin-top: 35%;
+
+    margin-top: 10%;
+    margin-bottom: 50%;
 
 }
 
-.col .s12 .m7 {
-    margin-top: 20vh;
-}
 .Card-Header {
 font-family: 'Beth Ellen';
 }
 .Card-Description {
 font-family: 'Lora';
+text-align: center;
 }
 /* Headers --- Lacquer|Beth+Ellen|Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light */
 /* Descriptors --- Crimson+Pro|Crimson+Text|Dosis|Grenze|Lora|Muli|PT+Serif*/
+.Card-Image {
+    width: 25vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.card-image-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
