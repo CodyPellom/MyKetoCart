@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Beth+Ellen|Crimson+Pro|Crimson+Text|Dosis|Grenze|Lacquer|Lora|Muli|PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin|Merriweather|Pacifico&display=swap');
+
+
 .all-content {
 
     display: flex;
@@ -42,7 +43,25 @@
 }
 
 
-#navbar-body {
+#main-navbar-body {
+    width: 100%;
+    z-index: 1;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 2px black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    top: 0;
+    position: fixed;
+
+}
+
+
+#blog-navbar-body {
     width: 100%;
     z-index: 1;
     height: 50px;
@@ -82,26 +101,88 @@
     overflow: auto;
     margin-top: 50px;
 }
-#ketoCartHeart {
+
+#MainHamburgerMenu {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 25px;
+    -webkit-transition: all 0.75s;
+    /* Safari prior 6.1 */
+    transition: all 0.75s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    position: inherit;
+    z-index: 0;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+#ketoCartHeartBlog {
     height: 9vh;
     width: 9vh;
 }
+
+#ketoCartHeartMain {
+    height: 5vh;
+    width: 5vh;
+}
+
+
+
 .hamburger-link {
     padding-right: 5vh;
     font-size: 5vh;
     color: black;
     text-decoration: none;
-    font-family: 'Amatic SC';
+    font-family: 'Cabin';
 }
+
+/* Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light */
+.main-hamburger-link {  
+    padding: 1vh;
+    font-size: 2.75vh;
+    color: black;
+    text-decoration: none;
+    font-family: 'Merriweather';
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
 .hamburger-link:hover {
-color:white;
-text-decoration: underline;
+    color: white;
+    text-decoration: underline;
+}
+
+.main-hamburger-link:hover {
+    color: red;
+    text-decoration: none;
 }
 
 #keto-menu-logo {
-    font-family: 'Amatic SC';
+    font-family: 'Pacifico';
     font-size: 7.5vh;
     padding-bottom: 2.5%;
+}
+
+#main-menu-logo {
+    font-family: 'Pacifico';
+    font-size: 5vh;
+    padding-bottom: 2.5%;
+}
+
+.keto-menu-descriptor {
+    font-family: 'Amatic SC';
+    font-size: 5vh;
+
 }
 
 /* Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light */
@@ -119,34 +200,40 @@ text-decoration: underline;
     height: 200vh;
     background-position: center;
     position: fixed;
-    
+
 }
-@media ( min-width:650px ){
+
+@media (min-width:650px) {
     #landerImage {
         transition: background-image 2s;
         background-size: cover;
         background-position-y: 80%;
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
         position: fixed;
-    }   
+    }
 }
 
 .cardArea {
-
     width: 100%;
-
     margin-top: 10%;
     margin-bottom: 50%;
-
 }
 
 .Card-Header {
-font-family: 'Beth Ellen';
+    font-family: 'Beth Ellen';
 }
+
 .Card-Description {
-font-family: 'Lora';
-text-align: center;
+    font-family: 'Lora';
+    text-align: center;
 }
+
+.Recipe-Credits {
+    font-family: 'Lora';
+    text-align: center;
+    font-size: 2vh;
+}
+
 /* Headers --- Lacquer|Beth+Ellen|Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light */
 /* Descriptors --- Crimson+Pro|Crimson+Text|Dosis|Grenze|Lora|Muli|PT+Serif*/
 .Card-Image {
@@ -159,6 +246,7 @@ text-align: center;
     align-items: center;
     align-content: space-between;
 }
+
 .card-content {
     display: flex;
     flex-direction: column;
@@ -167,6 +255,7 @@ text-align: center;
     align-items: center;
     align-content: space-between;
 }
+
 .card-image-row {
     display: flex;
     flex-direction: row;
@@ -174,4 +263,16 @@ text-align: center;
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
+}
+
+#mainLandingSection {
+    width: 100%;
+    height: 80vh;
+    border: solid rgb(151, 151, 151) 10px ;
+    margin-top: 100px;
+}
+
+.landing-page-wide-img {
+    width: 100%;
+    height: 80%;
 }
