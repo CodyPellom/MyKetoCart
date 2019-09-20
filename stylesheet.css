@@ -45,12 +45,13 @@ margin-right: 20px;
 #body-display-square-one {
     width: 400px;
     height: 400px;
-    background: purple;
+    background: url(./images/KetoFood-1.png);
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
-    
+    transition: all 1s;
 }
 /*----- Main Body End -----*/
