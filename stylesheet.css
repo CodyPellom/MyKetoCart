@@ -1,278 +1,56 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cabin|Merriweather|Pacifico&display=swap');
-
-
-.all-content {
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-
-}
-
-@media (max-width: 600px) {
-    .all-content {
-
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-
-    }
-
-    html {
-        overflow: scroll;
-        overflow-x: hidden;
-    }
-
-    ::-webkit-scrollbar {
-        width: 0px;
-        /* Remove scrollbar space */
-        background: transparent;
-        /* Optional: just make scrollbar invisible */
-    }
-
-    /* Optional: show position indicator in red */
-    ::-webkit-scrollbar-thumb {
-        background: whitesmoke;
-    }
-}
-
-
+/*----- Navbar Start -----*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Chewy|Luckiest+Guy|Mansalva&display=swap');
 #main-navbar-body {
-    width: 100%;
-    z-index: 1;
-    height: 40px;
-    background-color: rgb(255, 255, 255);
-    border: 2px black;
+    border: solid 5px black;
+    margin:20px;
+    padding: 20px;
+}
+#logo-section {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    top: 0;
-    position: fixed;
-
+    align-content: center;
 }
-
-
-#blog-navbar-body {
-    width: 100%;
-    z-index: 1;
-    height: 50px;
-    background-color: rgb(255, 255, 255);
-    border: 2px black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    top: 0;
-    position: fixed;
-
-}
-
-.sticky {
-
-    width: 100%;
-}
-
-#HamburgerMenu {
-    background: rgb(223, 223, 223);
-    width: 100%;
-    height: 50px;
-    -webkit-transition: all 0.75s;
-    /* Safari prior 6.1 */
-    transition: all 0.75s;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: space-between;
-    position: inherit;
-    z-index: 0;
-    overflow: auto;
-    margin-top: 50px;
-}
-
-#MainHamburgerMenu {
-    background: rgb(255, 255, 255);
-    width: 100%;
-    height: 25px;
-    -webkit-transition: all 0.75s;
-    /* Safari prior 6.1 */
-    transition: all 0.75s;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: space-between;
-    position: inherit;
-    z-index: 0;
-    overflow: hidden;
-    margin-top: 50px;
-}
-
-#ketoCartHeartBlog {
-    height: 9vh;
-    width: 9vh;
-}
-
-#ketoCartHeartMain {
-    height: 5vh;
-    width: 5vh;
-}
-
-
-
-.hamburger-link {
-    padding-right: 5vh;
-    font-size: 5vh;
-    color: black;
-    text-decoration: none;
-    font-family: 'Cabin';
-}
-
-/* Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light */
-.main-hamburger-link {  
-    padding: 1vh;
-    font-size: 2.75vh;
-    color: black;
-    text-decoration: none;
-    font-family: 'Merriweather';
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: space-between;
-}
-
-.hamburger-link:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-.main-hamburger-link:hover {
-    color: red;
-    text-decoration: none;
-}
-
-#keto-menu-logo {
-    font-family: 'Pacifico';
-    font-size: 7.5vh;
-    padding-bottom: 2.5%;
-}
-
 #main-menu-logo {
-    font-family: 'Pacifico';
-    font-size: 5vh;
-    padding-bottom: 2.5%;
+    font-family: "Chewy", sans-serif;
+    font-size: 45px;
 }
-
-.keto-menu-descriptor {
-    font-family: 'Amatic SC';
-    font-size: 5vh;
-
+#keto-heart-cart-image {
+    width: 100px;
+    height: 100px;
 }
-
-/* Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light */
-#cart-logo {
-    width: 7.5vh;
-    height: 7.5vh;
-
-}
-
-#landerImage {
-    transition: background-image 2s;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 200vh;
-    background-position: center;
-    position: fixed;
-
-}
-
-@media (min-width:650px) {
-    #landerImage {
-        transition: background-image 2s;
-        background-size: cover;
-        background-position-y: 80%;
-        background-repeat: no-repeat;
-        position: fixed;
-    }
-}
-
-.cardArea {
-    width: 100%;
-    margin-top: 10%;
-    margin-bottom: 50%;
-}
-
-.Card-Header {
-    font-family: 'Beth Ellen';
-}
-
-.Card-Description {
-    font-family: 'Lora';
-    text-align: center;
-}
-
-.Recipe-Credits {
-    font-family: 'Lora';
-    text-align: center;
-    font-size: 2vh;
-}
-
-/* Headers --- Lacquer|Beth+Ellen|Amatic+SC|Baloo+Chettan|Dancing+Script|Pacifico|Permanent+Marker|Shadows+Into+Light */
-/* Descriptors --- Crimson+Pro|Crimson+Text|Dosis|Grenze|Lora|Muli|PT+Serif*/
-.Card-Image {
-    width: 25vh;
-    height: 30vh;
+/* Links */
+#main-hamburger-menu {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: space-between;
+    justify-content: center;
+    align-content: center;
 }
+.main-hamburger-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Lato",sans-serif;
+    font-size: 24px;
+}
+/* Links End */
+/*----- Navbar End -----*/
 
-.card-content {
+/*----- Main Body Start -----*/
+#body-display-squares-section {
+margin-left: 20px;
+margin-right: 20px;
+}
+#body-display-square-one {
+    width: 400px;
+    height: 400px;
+    background: purple;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
     align-items: center;
-    align-content: space-between;
+    
 }
-
-.card-image-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    align-content: space-between;
-}
-
-#mainLandingSection {
-    width: 100%;
-    height: 80vh;
-    border: solid rgb(151, 151, 151) 10px ;
-    margin-top: 100px;
-}
-
-.landing-page-wide-img {
-    width: 100%;
-    height: 80%;
-}
+/*----- Main Body End -----*/

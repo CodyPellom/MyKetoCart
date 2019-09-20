@@ -29,4 +29,28 @@
 
 var landingPageArea = document.getElementById("mainLandingSection");
 landingPageArea.style.backgroundImage = "url('./images/Keto-LP-WideImg-1.png')";
+x = 0;
+function dynamicLandingBackground(){
+    x++;
+    if (x >= 6){
+        x = 0;
+    }
+    else if (x == 1){
+        landingPageArea.style.backgroundImage = "url('./images/Keto-LP-WideImg-1.png')";
+        landingPageArea.classList.add ="landing-page-wide-img";
+    }
+    else if (x == 2){
+        landingPageArea.style.backgroundImage = "url('./images/Keto-LP-WideImg-2.png')";
+        landingPageArea.classList.add ="landing-page-wide-img";
+    }
+    else if (x == 3){
+        landingPageArea.style.backgroundImage = "url('./images/Keto-LP-WideImg-3.png')";
+        landingPageArea.classList.add ="landing-page-wide-img";
+    }
+    else if (x == 4){
+        landingPageArea.style.backgroundImage = "url('./images/Keto-LP-WideImg-4.png')";
+        landingPageArea.classList.add ="landing-page-wide-img";
+    }
 
+}
+setInterval(dynamicLandingBackground, 4000);
