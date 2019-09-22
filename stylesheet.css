@@ -1,43 +1,69 @@
 /*----- Navbar Start -----*/
-@import url('https://fonts.googleapis.com/css?family=Raleway|Chewy|Luckiest+Guy|Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter|Raleway|Chewy|Neucha&display=swap');
+
 #main-navbar-body {
-    padding: 20px;
+    
+    
 }
+
 #logo-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
 }
+
 #main-menu-logo {
     font-family: "Chewy", sans-serif;
-    font-size: 45px;
+    font-size: 2.5vw;
 }
+
 #keto-heart-cart-image {
-    width: 100px;
-    height: 100px;
+    width: 5vw;
+    height: 5vw;
 }
+
 /* Links */
 #main-hamburger-menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
+    padding-bottom: 10px;
 }
+
 .main-hamburger-link {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 3vw;
+    padding-right: 3vw;
     text-decoration: none;
     color: black;
-    font-family: "Raleway",sans-serif;
-    font-size: 24px;
+    font-family: "Bitter", sans-serif;
+    font-size: 2vw;
 }
+
+.main-hamburger-link:hover {
+    color: red;
+    transition: color 0.5s;
+}
+
 /* Links End */
 /*----- Navbar End -----*/
 
 /*----- Main Body Start -----*/
+#landing-section-position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+
+}
+#testing {
+    opacity: 0.5;
+}
+
 #landing-section {
-    margin: 20px;
     width: 100vw;
     height: 40vw;
     display: flex;
@@ -45,14 +71,16 @@
     justify-content: center;
     align-content: center;
     align-items: center;
+    justify-self: center;
     background-image: url(./images/landing-page-slider/slide-one.png);
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Chewy', sans-serif;
-    font-size: 3.25vw;
+    font-size: 3vw;
     color: red;
     transition: all 0.25s;
 }
+
 button {
     background-color: red;
     border: none;
@@ -60,20 +88,22 @@ button {
     text-align: center;
     width: 12vw;
     height: 5vw;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Bitter", sans-serif;
     font-size: 2vw;
 }
+
 #body-display-squares-section {
-margin: 20px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-content: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
 }
+
 #body-display-square-one {
     width: 50vw;
     height: 50vw;
-    background: url(./images/KetoTech-2.PNG);
+    background: url(./images/landing-page-squares/square-opacity-1.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -81,22 +111,27 @@ align-content: center;
     align-content: center;
     align-items: center;
     margin-right: 10px;
+
 }
+
 #body-display-square-one-h1 {
     font-family: "Chewy", sans-serif;
     font-size: 4vw;
     color: red;
 }
+
 #body-display-square-one-p {
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 3vw;
     text-align: center;
     color: red;
+    width: 90%;
 }
+
 #body-display-square-two {
     width: 50vw;
     height: 50vw;
-    background: url(./images/KetoRecipe1.PNG);
+    background: url(./images/landing-page-squares/fitness-opacity.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -105,21 +140,25 @@ align-content: center;
     align-items: center;
     margin-left: 10px;
 }
+
 #body-display-square-two-h1 {
     font-family: "Chewy", sans-serif;
     font-size: 4vw;
-    color: white;
+    color: blue;
 }
+
 #body-display-square-two-p {
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 3vw;
     text-align: center;
-    color: white;
+    color: blue;
+    width: 90%;
 }
+
 #body-display-square-three {
     width: 50vw;
     height: 50vw;
-    background: url(./images/KetoRecipe1.PNG);
+    background: url(./images/landing-page-squares/fitness-opacity-3.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -128,53 +167,54 @@ align-content: center;
     align-items: center;
     margin-right: 10px;
 }
+
 #body-display-square-three-h1 {
     font-family: "Chewy", sans-serif;
     font-size: 4vw;
-    color: white;
+    color: green;
 }
+
 #body-display-square-three-p {
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 3vw;
     text-align: center;
-    color: white;
+    color: green;
+    width: 90%;
 }
+
 #body-display-squares-section-two {
-    margin: 20px;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    }
-    
-    #body-display-squares-section-two {
-        margin-top: -10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-content: center;
-        }
-        #body-display-square-four {
-            width: 50vw;
-             height: 50vw;
-            background: url(./images/KetoRecipe1.PNG);
-            background-size: cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-content: center;
-            align-items: center;
-            margin-left: 10px;
-        }
-        #body-display-square-four-h1 {
-            font-family: "Chewy", sans-serif;
-            font-size: 4vw;
-            color: white;
-        }
-        #body-display-square-four-p {
-            font-family: "Raleway",sans-serif;
-            font-size: 3vw;
-            text-align: center;
-            color: white;
-        }
+}
+
+#body-display-square-four {
+    width: 50vw;
+    height: 50vw;
+    background: url(./images/landing-page-squares/square-opacity-2.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+#body-display-square-four-h1 {
+    font-family: "Chewy", sans-serif;
+    font-size: 4vw;
+    color: black;
+}
+
+#body-display-square-four-p {
+    font-family: "Raleway", sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    color: red;
+    width: 90%;
+}
+
 /*----- Main Body End -----*/
