@@ -1,8 +1,8 @@
 /*----- Navbar Start -----*/
-@import url('https://fonts.googleapis.com/css?family=Lato|Chewy|Luckiest+Guy|Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Chewy|Luckiest+Guy|Mansalva&display=swap');
 #main-navbar-body {
-    border: solid 5px black;
-    margin:20px;
+    
+    
     padding: 20px;
 }
 #logo-section {
@@ -31,7 +31,7 @@
     margin-right: 10px;
     text-decoration: none;
     color: black;
-    font-family: "Lato",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-size: 24px;
 }
 /* Links End */
@@ -39,19 +39,117 @@
 
 /*----- Main Body Start -----*/
 #body-display-squares-section {
-margin-left: 20px;
-margin-right: 20px;
+margin: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
 }
 #body-display-square-one {
-    width: 400px;
-    height: 400px;
-    background: url(./images/KetoFood-1.png);
+    width: 50vw;
+    height: 50vw;
+    background: url(./images/KetoTech-2.PNG);
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
-    transition: all 1s;
+    margin-right: 10px;
 }
+#body-display-square-one-h1 {
+    font-family: "Chewy", sans-serif;
+    font-size: 36px;
+    color: red;
+}
+#body-display-square-one-p {
+    font-family: "Raleway",sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: red;
+}
+#body-display-square-two {
+    width: 50vw;
+    height: 50vw;
+    background: url(./images/KetoRecipe1.PNG);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+#body-display-square-two-h1 {
+    font-family: "Chewy", sans-serif;
+    font-size: 36px;
+    color: white;
+}
+#body-display-square-two-p {
+    font-family: "Raleway",sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+#body-display-square-three {
+    width: 50vw;
+    height: 50vw;
+    background: url(./images/KetoRecipe1.PNG);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+#body-display-square-three-h1 {
+    font-family: "Chewy", sans-serif;
+    font-size: 36px;
+    color: white;
+}
+#body-display-square-three-p {
+    font-family: "Raleway",sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+#body-display-squares-section-two {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    }
+    
+    #body-display-squares-section-two {
+        margin-top: -10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        }
+        #body-display-square-four {
+            width: 50vw;
+             height: 50vw;
+            background: url(./images/KetoRecipe1.PNG);
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            margin-left: 10px;
+        }
+        #body-display-square-four-h1 {
+            font-family: "Chewy", sans-serif;
+            font-size: 36px;
+            color: white;
+        }
+        #body-display-square-four-p {
+            font-family: "Raleway",sans-serif;
+            font-size: 24px;
+            text-align: center;
+            color: white;
+        }
 /*----- Main Body End -----*/
