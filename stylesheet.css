@@ -1,8 +1,6 @@
 /*----- Navbar Start -----*/
 @import url('https://fonts.googleapis.com/css?family=Raleway|Chewy|Luckiest+Guy|Mansalva&display=swap');
 #main-navbar-body {
-    
-    
     padding: 20px;
 }
 #logo-section {
@@ -38,6 +36,33 @@
 /*----- Navbar End -----*/
 
 /*----- Main Body Start -----*/
+#landing-section {
+    margin: 20px;
+    width: 100vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: url(./images/landing-page-slider/slide-one.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Chewy', sans-serif;
+    font-size: 3.25vw;
+    color: red;
+    transition: all 0.25s;
+}
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    text-align: center;
+    width: 12vw;
+    height: 5vw;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vw;
+}
 #body-display-squares-section {
 margin: 20px;
 display: flex;
@@ -59,12 +84,12 @@ align-content: center;
 }
 #body-display-square-one-h1 {
     font-family: "Chewy", sans-serif;
-    font-size: 36px;
+    font-size: 4vw;
     color: red;
 }
 #body-display-square-one-p {
     font-family: "Raleway",sans-serif;
-    font-size: 24px;
+    font-size: 3vw;
     text-align: center;
     color: red;
 }
@@ -82,12 +107,12 @@ align-content: center;
 }
 #body-display-square-two-h1 {
     font-family: "Chewy", sans-serif;
-    font-size: 36px;
+    font-size: 4vw;
     color: white;
 }
 #body-display-square-two-p {
     font-family: "Raleway",sans-serif;
-    font-size: 24px;
+    font-size: 3vw;
     text-align: center;
     color: white;
 }
@@ -105,12 +130,12 @@ align-content: center;
 }
 #body-display-square-three-h1 {
     font-family: "Chewy", sans-serif;
-    font-size: 36px;
+    font-size: 4vw;
     color: white;
 }
 #body-display-square-three-p {
     font-family: "Raleway",sans-serif;
-    font-size: 24px;
+    font-size: 3vw;
     text-align: center;
     color: white;
 }
@@ -143,12 +168,12 @@ align-content: center;
         }
         #body-display-square-four-h1 {
             font-family: "Chewy", sans-serif;
-            font-size: 36px;
+            font-size: 4vw;
             color: white;
         }
         #body-display-square-four-p {
             font-family: "Raleway",sans-serif;
-            font-size: 24px;
+            font-size: 3vw;
             text-align: center;
             color: white;
         }
