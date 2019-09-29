@@ -1,10 +1,5 @@
 /*----- Navbar Start -----*/
-@import url('https://fonts.googleapis.com/css?family=Bitter|Raleway|Chewy|Neucha&display=swap');
-
-#main-navbar-body {
-    
-    
-}
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:400, 800|Patua+One|Raleway|Chewy|Comfortaa|Fredoka+One|Montserrat|Poppins&display=swap');
 
 #logo-section {
     display: flex;
@@ -37,8 +32,8 @@
     padding-right: 3vw;
     text-decoration: none;
     color: black;
-    font-family: "Bitter", sans-serif;
-    font-size: 2vw;
+    font-family:  'Be Vietnam';
+    font-size: 1.5vw;
 }
 
 .main-hamburger-link:hover {
@@ -62,7 +57,7 @@
 #testing {
     opacity: 0.5;
 }
-
+/*Bitter|Raleway|Chewy|Neucha|Montserrat|Poppins|Comfortaa|Lobster*/
 #landing-section {
     width: 100vw;
     height: 40vw;
@@ -75,9 +70,9 @@
     background-image: url(./images/landing-page-slider/slide-one.png);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Chewy', sans-serif;
-    font-size: 3vw;
-    color: red;
+    font-family: 'Patua One';
+    font-size: 2.5vw;
+    color: blueviolet;
     transition: all 0.25s;
 }
 
@@ -88,8 +83,8 @@ button {
     text-align: center;
     width: 12vw;
     height: 5vw;
-    font-family: "Bitter", sans-serif;
-    font-size: 2vw;
+    font-family: 'Be Vietnam';
+    font-size: 1.75vw;
 }
 
 #body-display-squares-section {
@@ -115,17 +110,18 @@ button {
 }
 
 #body-display-square-one-h1 {
-    font-family: "Chewy", sans-serif;
-    font-size: 4vw;
+    font-family: 'Patua One';
+    font-size: 3vw;
     color: red;
 }
 
 #body-display-square-one-p {
-    font-family: "Raleway", sans-serif;
-    font-size: 3vw;
+    font-family: 'Be Vietnam';
+    font-size: 2.5vw;
     text-align: center;
     color: red;
     width: 90%;
+    margin-top: -10px;
 }
 
 #body-display-square-two {
@@ -142,17 +138,18 @@ button {
 }
 
 #body-display-square-two-h1 {
-    font-family: "Chewy", sans-serif;
-    font-size: 4vw;
+    font-family: 'Patua One';
+    font-size: 3vw;
     color: blue;
 }
 
 #body-display-square-two-p {
-    font-family: "Raleway", sans-serif;
-    font-size: 3vw;
+    font-family: 'Be Vietnam';
+    font-size: 2.5vw;
     text-align: center;
     color: blue;
     width: 90%;
+    margin-top: -10px;
 }
 
 #body-display-square-three {
@@ -169,17 +166,18 @@ button {
 }
 
 #body-display-square-three-h1 {
-    font-family: "Chewy", sans-serif;
-    font-size: 4vw;
+    font-family: 'Patua One';
+    font-size: 3vw;
     color: green;
 }
 
 #body-display-square-three-p {
-    font-family: "Raleway", sans-serif;
-    font-size: 3vw;
+    font-family: 'Be Vietnam';
+    font-size: 2.5vw;
     text-align: center;
     color: green;
     width: 90%;
+    margin-top: -10px;
 }
 
 #body-display-squares-section-two {
@@ -204,17 +202,18 @@ button {
 }
 
 #body-display-square-four-h1 {
-    font-family: "Chewy", sans-serif;
-    font-size: 4vw;
+    font-family: 'Patua One';
+    font-size: 3vw;
     color: black;
 }
 
 #body-display-square-four-p {
-    font-family: "Raleway", sans-serif;
-    font-size: 3vw;
+    font-family: 'Be Vietnam';
+    font-size: 2.5vw;
     text-align: center;
     color: red;
     width: 90%;
+    margin-top: -10px;
 }
 
 /*----- Main Body End -----*/
